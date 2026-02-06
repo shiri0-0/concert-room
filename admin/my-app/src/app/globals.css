@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Force all text to black globally */
+html,
+body {
+  color: black;
+}
+
+/* Ensure all elements inherit black text */
+*,
+*::before,
+*::after {
+  color: inherit;
+}
